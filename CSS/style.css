@@ -1,0 +1,77 @@
+
+
+    body
+    {
+        margin: 0;
+        padding: 0;
+		font-family:verdana;
+        background-color:black;
+    }
+    
+    /* Haut de ma page */
+    #Top
+    {
+        width: 100%;
+        display: flex;
+        background-color: #F1EEEE;
+		margin-bottom:30px;
+    }
+    
+    /* Contient le logo du site */
+    header
+    {
+        width: 20%;
+        text-align: center;   
+    }
+
+    header img
+    {
+        margin-top: 2%;
+		margin-bottom: 2%;
+		width: 35%;
+		vertical-align: middle;
+    }
+    
+    /*Menu du site */
+
+    nav
+    { 
+        display:block;
+     }
+    
+    nav ul li
+    {
+        display: inline-block;    
+        padding: 3%;
+		padding-bottom:1%;
+    }
+	
+	nav ul li a
+    {
+        text-decoration: none;
+        color: black;
+        font-size: 1.0vw;
+    }
+
+    img
+    { 
+        width:100%;    
+    }
+
+    h1
+    { 
+        color:white;
+        font-family:inter;
+        font-size:24px;
+        font-weight:700;
+     }
+
+    
+
+
+
+
+
+
+
+
