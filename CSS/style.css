@@ -1,7 +1,6 @@
 
 
-    body
-    {
+    body{
         margin: 0;
         padding: 0;
 		font-family:verdana;
@@ -9,23 +8,19 @@
     }
     
     /* Haut de ma page */
-    #Top
-    {
-        width: 100%;
+    #Top{
         display: flex;
         background-color: #F1EEEE;
 		margin-bottom:30px;
     }
     
     /* Contient le logo du site */
-    header
-    {
+    header{
         width: 20%;
         text-align: center;   
     }
 
-    header img
-    {
+    header img{
         margin-top: 2%;
 		margin-bottom: 2%;
 		width: 35%;
@@ -34,37 +29,164 @@
     
     /*Menu du site */
 
-    nav
-    { 
+    nav{ 
         display:block;
      }
     
-    nav ul li
-    {
+    nav ul li{
         display: inline-block;    
         padding: 3%;
 		padding-bottom:1%;
     }
 	
-	nav ul li a
-    {
+	nav ul li a{
         text-decoration: none;
         color: black;
         font-size: 1.0vw;
     }
 
-    img
-    { 
+    img{ 
         width:100%;    
     }
 
-    h1
-    { 
+    h1{ 
         color:white;
         font-family:inter;
         font-size:24px;
-        font-weight:700;
      }
+
+     #lesoeuvres{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    }
+
+    #blocphoto{ 
+        max-width: 1050px;
+        display:flex;
+        flex-wrap:wrap;
+        margin:auto;
+        gap:50px;
+    }
+
+     #blocphoto img{
+        width:500px;
+        height:390px;
+     }
+
+    #lesartistes{ 
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+     }
+
+     #blocartistes{
+        max-width:900;
+        display:flex;
+        flex-wrap:wrap;
+     }
+
+     #blocartistes img{
+        width: 295px;
+        height: 286px;
+        margin:auto;
+        border-radius: 50%;
+        gap:30px;
+     }
+
+     #blocartistes img:hover {
+     visibility: visible;
+     transform: scale(1.1);
+    }
+
+     #quisommesnous{ 
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    }
+
+      #texte{
+    max-width:900px;
+    color: white;
+    text-align:center;
+    margin:auto;
+        }
+
+    b{
+    font-weight: initial;
+    color:rgba(243, 158, 131, 1);
+    }
+
+    #contactformulaire{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    }
+
+    .zone1{
+    background-color:#AAA;
+    color:white;
+    text-align:right;
+    padding-right:15px;
+    }
+
+    .zone2{
+    background-color:#CCC;
+    color:white;
+    text-align:right;
+    padding-right:15px;
+    }
+
+     .zone0{
+    background-color:#EEE;
+    padding-bottom:5px;
+    margin-left:1px;
+    }
+
+    h2{ 
+    color:white;
+    width:400px;
+    margin:auto;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#607D8B;
+     }
+
+    form{
+    background-color:#B0BEC5;
+    width:400px;
+    margin:auto;
+    display:flex;
+    color:white;
+    }
+
+    footer{
+        color:white;
+        text-align:center;
+    }
+
+    input[type="submit"] {
+    font-size: 0.9em; 
+    color:white; 
+    border: 2px outset black;
+    background-color:#AAA;
+    }
+
+    input[type="submit"]:hover{
+    color:black;
+    font-weight:bold;
+}
+
+
 
     
 
