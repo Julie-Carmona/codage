@@ -219,6 +219,10 @@
         padding-top:100px;
     }
 
+    i {
+        background-color:white;
+    }
+
 /* Format responsive */
 
     @media screen and (max-width: 620px) {
