@@ -7,7 +7,7 @@
         background-color:black;
     }
     
-    /* Haut de ma page */
+/* Haut de ma page */
     
     header{
         display:flex;
@@ -17,7 +17,7 @@
         background-color:#F1EEEE;
     }
 
-     /* Contient le logo du site */
+/* Contient le logo du site */
 
     #logo {
         position:absolute;
@@ -28,7 +28,7 @@
         vertical-align: middle;
     }
     
-    /*Menu du site */
+/* Page d'accueil du site */
 
     #menu {
         width:100%;
@@ -52,7 +52,12 @@
         padding-right:3%;
     }
 
-    /* titre H1 */
+    nav ul li:hover a{
+        color:#F39E83;
+        text-decoration-line: underline;
+    }
+
+/* titre H1 */
 
     h1{
         color:white;
@@ -60,13 +65,13 @@
         font-family:georgia;
     }
 
-    /* Image de couverture*/
+/* Image de couverture*/
 
     img{ 
         width:100%;    
     }
 
-    /* Page 1 : Les oeuvres d'art */
+/* Page 1 : Les oeuvres d'art */
 
 
     h2{ 
@@ -96,7 +101,7 @@
         height:390px;
      }
 
-    /* Page 2 : Les artistes */
+/* Page 2 : Les artistes */
 
 
     #lesartistes{ 
@@ -128,38 +133,38 @@
         transform: scale(1.1);
     }
 
-    /* Page 3 : Histoire du site internet */
+/* Page 3 : Histoire du site internet */
 
-     #quisommesnous{ 
-    padding-top:100px;
-    padding-bottom:50px;
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    margin-top: 20px;
+    #quisommesnous{ 
+        padding-top:100px;
+        padding-bottom:50px;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 20px;
     }
 
-      #texte{
-    max-width:900px;
-    color: white;
-    text-align:center;
-    margin:auto;
-        }
+    #texte{
+        max-width:900px;
+        color: white;
+        text-align:center;
+        margin:auto;
+    }
 
     b{
-    font-weight: initial;
-    color:#F39E83;
+        font-weight: initial;
+        color:#F39E83;
     }
 
-    /* Page 4 : Formulaire d'inscription */
+/* Page 4 : Formulaire d'inscription et contact */
 
     #formulaire{
-    padding-top:100px;
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
+        padding-top:100px;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
     }
 
     #bloc0{
@@ -172,38 +177,38 @@
     }
     
     h3{ 
-    color:white;
-    width:300px;
-    margin:auto;
-    text-align:center;
-    padding-top:10px;
-    padding-bottom:10px;
-    background-color:#F39E83;
+        color:white;
+        width:300px;
+        margin:auto;
+        text-align:center;
+        padding-top:10px;
+        padding-bottom:10px;
+        background-color:#F39E83;
     }
 
     form{
-    background-color:#F1EEEE;
-    width:300px;
-    margin:auto;
-    display:flex;
-    color:white;
-    text-align:center;
-    color:black;
+        background-color:#F1EEEE;
+        width:300px;
+        margin:auto;
+        display:flex;
+        color:white;
+        text-align:center;
+        color:black;
     }
 
-     input[type="submit"] {
-    font-size: 0.9em; 
-    color:white; 
-    border: 2px outset black;
-    background-color:#AAA;
+    input[type="submit"] {
+        font-size: 0.9em; 
+        color:white; 
+        border: 2px outset black;
+        background-color:#AAA;
     }
 
     input[type="submit"]:hover{
-    color:black;
-    font-weight:bold;
+        color:black;
+        font-weight:bold;
     }
 
-    /* Contact de l'entreprise*/
+/* Bas de page : Contact de l'entreprise*/
 
     footer{
         color:white;
@@ -213,6 +218,32 @@
     #contact{
         padding-top:100px;
     }
+
+/* Format responsive */
+
+    @media screen and (max-width: 620px) {
+        #blocphoto{
+            max-width:600px;
+            display:flex;
+            flex-wrap:wrap;
+            margin:auto;
+        }
+
+        #blocartistes{
+            max-width:400px;
+            margin:auto;
+        }
+
+        h3{
+             width:400px;
+        }
+
+        form {
+            width:400px;
+            margin:auto;
+        }
+    }
+
 
     
 
