@@ -225,17 +225,25 @@
 
 /* Format responsive */
 
-    @media screen and (max-width: 620px) {
-        #blocphoto{
-            max-width:600px;
-            display:flex;
-            flex-wrap:wrap;
+     @media screen and (max-width: 1000px) {
+        #menu1{
+            max-width:80%;
+            margin-left:80px;
+        }
+
+     @media screen and (max-width: 850px) {
+        #menu1{
+            max-width:80%;
+            margin-left:80px;
+        }
+
+        #blocphoto img{
+            max-width:830px;
             margin:auto;
         }
 
-        #blocartistes{
-            max-width:400px;
-            margin:auto;
+        #texte{
+            font-size:20px;
         }
 
         h3{
@@ -245,6 +253,45 @@
         form {
             width:400px;
             margin:auto;
+        }
+
+        p{
+            font-size:20px;
+        }
+
+    }
+
+    @media screen and (max-width: 620px) {
+        #menu1{
+            max-width:80%;
+        }
+
+        #blocphoto img{
+            max-width:600px;
+            margin:auto;
+        }
+
+        #blocartistes{
+            max-width:400px;
+            margin:auto;
+            gap:50px;
+        }
+
+        #texte{
+            font-size:20px;
+        }
+
+        h3{
+             width:400px;
+        }
+
+        form {
+            width:400px;
+            margin:auto;
+        }
+
+        p{
+            font-size:20px;
         }
     }
 
