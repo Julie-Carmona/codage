@@ -57,6 +57,17 @@
         text-decoration-line: underline;
     }
 
+    #header_burger{
+        display:none;
+    }
+
+    #header_burger svg{
+        padding-left:500px;
+        padding-top:28px;
+        width:60px;
+        height:60px;
+    }
+
 /* titre H1 */
 
     h1{
@@ -232,6 +243,7 @@
         }
 
      @media screen and (max-width: 850px) {
+
         #blocphoto img{
             max-width:830px;
             margin:auto;
@@ -265,7 +277,16 @@
 
     }
 
-    @media screen and (max-width: 620px) {
+    @media screen and (max-width: 670px) {
+
+         #menu {
+            display:none;
+        }
+
+         #header_burger{
+            display:block;
+        } 
+
         #blocartistes{
             max-width:400px;
             margin:auto;
